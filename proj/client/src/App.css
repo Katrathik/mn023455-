@@ -1,0 +1,76 @@
+/* Style for the container */
+.container{
+    position: relative;
+}
+
+form{
+    position: absolute;
+    top:50px;
+    margin: auto;
+}
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the inner container */
+.bg-white {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+/* Style for the heading */
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style for labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the button */
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+/* Style for the paragraph */
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Style for the link */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    background-color: #f8f9fa;
+    text-decoration: none;
+    color: #000;
+}
